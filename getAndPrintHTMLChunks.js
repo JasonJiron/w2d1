@@ -15,8 +15,8 @@ function getAndPrintHTMLChunks (callback) {
     response.setEncoding('utf8');
   
     // the callback is invoked when a `data` chunk is received
-    response.on('data', function (data) {
-      console.log(data + '\n');
+    response.on('data', function (asdasdas) {
+      console.log(asdasdas + '\n');
     });
   
     // the callback is invoked when all of the data has been received
